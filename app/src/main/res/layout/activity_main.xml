@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/et1"
+            style="@style/EditText" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_marginTop="56dp"
+            android:text="@string/toppings" />
+
+        <CheckBox
+            android:id="@+id/ck"
+            style="@style/CheckBox"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            style="@style/TextView2"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            android:text="@string/cream" />
+
+        <CheckBox
+            android:id="@+id/ckC"
+            style="@style/CheckBox"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            style="@style/TextView2"
+            android:layout_marginTop="110dp"
+            android:text="@string/chocolate" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_marginTop="125dp"
+            android:text="@string/Q" />
+
+        <Button
+            android:id="@+id/bntP"
+            style="@style/Button"
+            android:layout_marginLeft="10dp"
+            android:onClick="up"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/txtC"
+            style="@style/TextView3"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/bntM"
+            style="@style/Button"
+            android:layout_marginLeft="90dp"
+            android:onClick="down"
+            android:text="-" />
+
+        <Button
+            style="@style/Button2"
+            android:layout_marginTop="230dp"
+            android:text="@string/OD" />
+
+    </RelativeLayout>
+</ScrollView>

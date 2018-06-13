@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">JustJava</string>
+    <string name="toppings">TOPPINGS</string>
+    <string name="cream">Whipped cream</string>
+    <string name="Q">QUANTITY</string>
+    <string name="OD">ORDER</string>
+    <string name="n">Name: </string>
+    <string name="q">Quantity</string>
+    <string name="tot" translatable="false">Total:</string>
+    <string name="tu">Thank You!</string>
+    <string name="qrc" translatable="false">$</string>
+    <string name="chocolate" translatable="false">Chocolate</string>
+    <string name="subj">order for</string>
+    <string name="confirm">yes</string>
+    <string name="negate" translatable="false">no</string>
+
+</resources>
